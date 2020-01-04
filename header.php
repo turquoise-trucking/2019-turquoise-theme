@@ -39,7 +39,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-sm-6">
-                    <a href="index.html"><img class="logo" src="/static-assets/turquoise-logo.png" alt="turquoise trucking logo"></a>
+                    <a href="/"><img class="logo" src="/static-assets/turquoise-logo.png" alt="turquoise trucking logo"></a>
                 </div>
                 <div class="col-sm-6 align-middle">
                     <div class="btn-group float-right" style="padding: 0.75em;">

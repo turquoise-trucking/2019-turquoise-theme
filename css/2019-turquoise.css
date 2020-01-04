@@ -14,6 +14,14 @@ a:link {color: var(--color-turquoise);}
 a:hover {background: var(--color-turquoise);color: white;}
 */
 
+/* WordPress fixes ------------------------------------------------------------ */
+
+/* adds padding to fix certain elements touching */
+.row, .card {
+    /* margin-bottom: 0.25em !important; */
+}
+
+/* masthead styling ----------------------------------------------------------- */
 .logo {
     width: 100%;
 }
@@ -22,13 +30,17 @@ a:hover {background: var(--color-turquoise);color: white;}
     border: 1px solid #10b5a8;
 }
 .masthead {
-    background-image: url("road_header.jpg");
+    background-image: url("/static-assets/road_header.jpg");
     background-position: center;
     height: 15%;
 }
 .nav-item .active {
     border-bottom: 4px solid var(--color-turquoise);
     color: #128A80 !important;
+}
+.navbar-brand img {
+    width: 64px;
+    height: 43px;
 }
 
 /* content styling ------------------------------------------------------------ */

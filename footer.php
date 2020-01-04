@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row row-30">
             <div class="col-md-4 col-xl-5">
-                <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="/static-assets/turquoise-badge.png" alt="" width="181" height="50"></a>
+                <div class="pr-xl-4"><a class="brand" href="/"><img class="brand-logo-light" src="/static-assets/turquoise-badge.png" alt="" width="181" height="50"></a>
                 <p>With over 10 years of experience in the trucking business, we provide companies with safe, efficient, and reliable transportation solutions across the United States.</p>
                 <ul class="nav-list">
                     <li class="nav-fb"><a href="https://www.facebook.com/TurquoiseTrucking/" target="_blank" rel="noreferrer" class="external-link"><i class="fab fa-facebook-square fa-lg"></i> Follow us on Facebook</a></li>
@@ -30,11 +30,11 @@
             <div class="col-md-4 col-xl-3">
                 <h5>Links</h5>
                 <ul class="nav-list">
-                    <li class="nav-home"><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                    <li class="nav-about"><a href="about.html"><i class="fas fa-user-friends"></i> About Turquoise</a></li>
-                    <li class="nav-contact"><a href="contact.html"><i class="far fa-comment-dots"></i> Contact Us</a></li>
-                    <li class="nav-drivers"><a href="drivers.html"><i class="fas fa-truck-moving"></i> Drivers</a></li>
-                    <li class="nav-customers"><a href="customers.html"><i class="fas fa-warehouse"></i> Customers</a></li>
+                    <li class="nav-home"><a href="/"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-about"><a href="/about/"><i class="fas fa-user-friends"></i> About Turquoise</a></li>
+                    <li class="nav-contact"><a href="/contact/"><i class="far fa-comment-dots"></i> Contact Us</a></li>
+                    <li class="nav-drivers"><a href="/drivers/"><i class="fas fa-truck-moving"></i> Drivers</a></li>
+                    <li class="nav-customers"><a href="/customers/"><i class="fas fa-warehouse"></i> Customers</a></li>
                 </ul>
             </div>
         </div>
