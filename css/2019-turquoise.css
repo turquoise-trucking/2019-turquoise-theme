@@ -17,8 +17,13 @@ a:hover {background: var(--color-turquoise);color: white;}
 /* WordPress fixes ------------------------------------------------------------ */
 
 /* adds padding to fix certain elements touching */
-.row, .card {
-    /* margin-bottom: 0.25em !important; */
+div.row, div.card, div.card-deck, div.carousel {
+    margin-bottom: 0.25em !important; 
+}
+p.wps {
+    /* wps or WordPress Sucks, add this style to every paragraph you want to 
+    not be culled by the wautop disable function  */
+    color: black;
 }
 
 /* masthead styling ----------------------------------------------------------- */
