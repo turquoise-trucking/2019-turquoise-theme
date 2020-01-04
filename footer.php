@@ -58,8 +58,7 @@
 <?php wp_footer(); ?>
 
 <!-- jquery required by bootstrap -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS 
-         full jQuery needed over slim for return to top arrow -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>

@@ -10,7 +10,6 @@
 
     <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 
-    <meta name="description" content="">
     <meta name="author" content="John Earl Hardesty">
 
     <!-- bootstrap styles -->
