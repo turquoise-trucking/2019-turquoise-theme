@@ -12,7 +12,7 @@ The website and subsequent theme was made at the tail-end of 2019 thus the year.
 
 ## How are static pages built?
 
-Low-fi paper prototyping was used as a foundation prior to commiting to code. Bootstrap is a component library used to structurally build the website with help from other technology listed. 
+Low-fi paper prototyping was used as a foundation prior to commiting to code. [Bootstrap](https://getbootstrap.com/) is a component library used to structurally build the website with help from other technology listed. 
 
 [Bootstrap]: https://getbootstrap.com/
 [Font Awesome]: https://fontawesome.com/
