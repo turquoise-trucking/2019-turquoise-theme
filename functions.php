@@ -1,5 +1,5 @@
-<? php 
-    require('bs4navwalker.php');
+<?php 
+    require_once('bs4navwalker.php');
 
     function themebs_enqueue_styles() {
 
