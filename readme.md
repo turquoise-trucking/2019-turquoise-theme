@@ -1,4 +1,4 @@
-# Readme for 2019-bootstrap
+# Readme for 2019-turquoise-theme
 
 A quick writeup for the reason behind this theme. More or less, I lack WordPress experience so when it came to building a new website I designed one by hand instead of using WordPress Themes. Now, in order for the static website to be hosted it must be converted into a theme.
 
