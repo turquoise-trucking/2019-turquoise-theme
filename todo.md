@@ -8,4 +8,4 @@ Taking the heretofore unused maintenance page as a base a custom 404 to use in t
 
 ## Create template pages
 
-This will take some time. Right now the WordPress pages contain raw HTML markup but I'd rather they used copy (text) instead. This could be accomplished by creating templates for how each page looks unique to their physical layout. Hopefully accomplished through a core method or even a free plugin.  
+This will take some time. Right now the WordPress pages contain raw HTML markup but I'd rather they used copy (text) instead. This could be accomplished by creating templates for how each page looks unique to their physical layout. Hopefully this can be accomplished through a core method or even a free plugin.  
