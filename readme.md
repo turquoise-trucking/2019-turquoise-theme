@@ -6,6 +6,17 @@ Learn more about the custom theme for [Turquoise Trucking](https://turquoisetruc
 
 ## Changelog
 
+**2020-02-01**
+
+* Full enqueued styles and scripts
+  * CDN used for Bootcamp, jQuery, Font Awesome, popper.js
+  * Spacing issues remain after enqueueing 
+* Popper.js not functioning on *drivers page*
+* Multiple changes to stylesheets and theme files
+  * Check repo
+
+
+
 **2020-01-25**
 
 * Changed *header.php* title element due to duplicate company names. This leads to the title being the filename as I have no seen a method of changing a title independent of the URL is built. For example if the about page was given a title "About Us" it would make the URL /about_us/ or similar.
@@ -47,6 +58,10 @@ Deployment took place in late 2019. Raw HTML markup was copy/pasted into WordPre
 Bootstrap cards, card decks, and other block level elements appear to have little if any padding vertically. The navigation brand icon also has sizing issues and due to the nature of how I split the code is present on each WP page. Using a webpage inspect it appears that the reboot portion of Bootstrap rules is not being followed. 
 
 First, I will clean up how I call Bootstrap from within WordPress by removing meta tags in the document head and enqueuing them through the WP engine. I will also enqueue CDNs instead of files.
+
+**Update (2020-02-01) **Enqueuing has been accomplished. Some redundancies may have occurred such as enqueueing jQuery even though WordPress includes it. Other oddities, such as Font Awesome, had to be setup through a JavaScript kit and stylesheet due to custom ::after content styles not functioning when only the kit was called.
+
+Even after fully enqueuing scripts and stylesheets spacing issues between block level elements remain. Is reboot styling through Bootcamp not being called?
 
 
 
