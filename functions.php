@@ -13,6 +13,7 @@
       function themebs_enqueue_scripts() {
         wp_enqueue_script( 'bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js' );
         wp_enqueue_script( 'popper', '//unpkg.com/@popperjs/core@2.0.0-rc.3' );
+        wp_enqueue_script( 'fontawesome', '//kit.fontawesome.com/74abbf3163.js' );
       }
       add_action( 'wp_enqueue_scripts', 'themebs_enqueue_scripts');
 ?>
