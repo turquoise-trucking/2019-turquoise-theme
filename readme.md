@@ -8,14 +8,15 @@ Learn more about the custom theme for [Turquoise Trucking](https://turquoisetruc
 
 **2020-02-08**
 
-* Updated *robots.txt* for better SEO
 * Server-side activity
+  * Updated *robots.txt* for better SEO
   * Fixed permissions via FileZilla where possible
     * Addressing Site Health updating problems
   * Changed database contact email addresses
     * Backed up databases locally before and after
 * Code clean-up
-  * Unchecked emoji preference 
+  * Unchecked emoji preference
+    * Emoji code remains in *WP Loop* 
   * Removed http://rpc.pingomatic.com/
     * We aren't hosting this WP site as a blog
 * Stylesheet rewritten
