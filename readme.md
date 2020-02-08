@@ -6,6 +6,27 @@ Learn more about the custom theme for [Turquoise Trucking](https://turquoisetruc
 
 ## Changelog
 
+**2020-02-08**
+
+* Updated *robots.txt* for better SEO
+* Server-side activity
+  * Fixed permissions via FileZilla where possible
+    * Addressing Site Health updating problems
+  * Changed database contact email addresses
+    * Backed up databases locally before and after
+* Code clean-up
+  * Unchecked emoji preference 
+  * Removed http://rpc.pingomatic.com/
+    * We aren't hosting this WP site as a blog
+* Stylesheet rewritten
+  * Removed global code variables
+    * WordPress thinks they are errors
+  * Moved leftover styling code from pages to CSS
+  * **Fixed spacing issue**
+    * Added rule at end of stylesheet to add bottom margin
+
+
+
 **2020-02-01**
 
 * Full enqueued styles and scripts
