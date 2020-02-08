@@ -4,26 +4,15 @@ Theme URI: https://github.com/turquoise-trucking/2019-turquoise-theme
 Description: Theme for WordPress with Bootstrap for styling.
 Author: John Earl Hardesty
 Author URI: https://github.com/Heardwulf
-Version: 1.1
+Version: 1.2
 */
+
+/* 2019-11-16 John Earl Hardesty */
+/* Update 1.2 2020-02-08 fixes for block-level padding issues and rewrite */
 
 /* Turquoise website styles =================================================== */
-/* 2019-11-16 John Earl Hardesty */
 
-/* globals -------------------------------------------------------------------- */
-:root {
-    /* colors */
-    --color-turquoise: #30d5c8;
-    --color-mail: rgb(81,38,20);
-    --color-phone: rgb(15,84,27);
-  }
-
-/*
-a:link {color: var(--color-turquoise);}
-a:hover {background: var(--color-turquoise);color: white;}
-*/
-
-/* masthead styling ----------------------------------------------------------- */
+/* masthead (top of page) ----------------------------------------------------- */
 .logo {
     width: 100%;
 }
@@ -34,7 +23,7 @@ a:hover {background: var(--color-turquoise);color: white;}
     /*background-color: #128A80;*/
 }
 .bg-turquoise {
-    background: var(--color-turquoise); 
+    background: #30d5c8; 
     border: 1px solid #10b5a8;
 }
 .masthead-gradient {
@@ -49,8 +38,11 @@ a:hover {background: var(--color-turquoise);color: white;}
     margin-top: 0em;
     padding-top: 0em;
 }
+.masthead-btn {
+	padding: 0.75em;
+}
 .nav-item .active {
-    border-bottom: 4px solid var(--color-turquoise);
+    border-bottom: 4px solid #30d5c8;
     color: #128A80 !important;
 }
 .nav-tray {
@@ -58,8 +50,9 @@ a:hover {background: var(--color-turquoise);color: white;}
     width: 100%;
 }
 .navbar-brand img {
-    width: 64px;
-    height: 43px;
+	/* was 64x43 prior */
+	width: 40px;
+    height: 27px;
 }
 @media only screen and (min-width: 1200px) {
     /* prevents logo growing too large on widescreens*/
@@ -76,7 +69,8 @@ a:hover {background: var(--color-turquoise);color: white;}
     }
 }
 
-/* content styling ------------------------------------------------------------ */
+
+/* page content --------------------------------------------------------------- */
 .card-title a:link,
 .card-title a:visited,
 .card-title a:active {
@@ -86,9 +80,6 @@ a:hover {background: var(--color-turquoise);color: white;}
     color: #128A80;
     text-decoration: none;
 }
-.card {
-    margin-bottom: 1em;
-}
 .apply-button a:link,
 .apply-button a:visited {
     color: white;
@@ -96,55 +87,64 @@ a:hover {background: var(--color-turquoise);color: white;}
 .fb-btn {
     background: #46b
 }
-.popover-dismiss {
-    cursor: help;
+.carousel-inner {
+	box-shadow: 0px 3px 4px #999; 
+	/* border: 1px solid #aaa;
+	border-color: #aaa #999 #888; */
+	border-radius: 8px;
+}
+/* expand abbreviations on mobile */
+abbr[title] {
+	border-bottom: none;
+	text-decoration: none;
+}
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+@media screen and (min-width: 600px) {
+	abbr[title] {
+		border-bottom: 2px dotted #30d5c8;
+		text-decoration: none;
+		cursor:help;
+	}
+	abbr[title]:after {
+		content: "";
+	}
 }
 
-/* footer styling ------------------------------------------------------------- */
-#footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 10em;
-    padding-top: 1.5em;
-}
-
+/* footer (bottom of page) ---------------------------------------------------- */
 .footer {
     padding-top: 0.5em;
     border-top: 2px solid #10b5a8;
 }
-
 .footer div div div,
 .footer-dark {
     padding-top: 0.5em;
 }
-
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+.footer-classic a, 
+.footer-classic a:focus, 
+.footer-classic a:active {
     color: #ffffff;
     text-decoration: none;
     padding-top: 0.5em;
 }
-
-
-.nav-list li a:hover:after, a.external-link:hover::after {
+.nav-list li a:hover:after, 
+a.external-link:hover::after {
     margin-left: 5px;
     opacity: 1;
     visibility: visible;
 }
-
 .nav-list {
     padding: 0;
     margin: 0;
 }
-
 .nav-list li {
     list-style: none;
     padding-top: 5px;
     padding-bottom: 10px;
 }
-
-.nav-list li a:after, a.external-link:after  {
+.nav-list li a:after, 
+a.external-link:after  {
     font-family: "Font Awesome 5 Free";
     content: "\f054";
     font-weight: 900;
@@ -157,26 +157,29 @@ a:hover {background: var(--color-turquoise);color: white;}
     visibility: hidden;
     transition: .22s ease;
 }
-
 a.external-link:after {
     content: "\f35d";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
-
-.nav-fb a:hover i {color: #46b}
-.nav-fb {font-size: 110%;}
-
+.nav-fb a:hover i {
+	color: #46b;
+}
+.nav-fb {
+	font-size: 110%;
+}
 .nav-home a:hover i,
 .nav-about a:hover i,
 .nav-contact a:hover i,
 .nav-drivers a:hover i,
-.nav-customers a:hover i {color: #128A80}
-
+.nav-customers a:hover i {
+	color: #128A80;
+}
 .contact-list a:hover i.fa-phone,
 .contact-list a:hover i.fa-map-marker-alt,
-.contact-list a:hover i.fa-envelope {color: #568A80;}
-
+.contact-list a:hover i.fa-envelope {
+	color: #568A80;
+}
 .footer-dark {
     background: #128A80;
     color: #31D6C8;
@@ -185,20 +188,31 @@ a.external-link:after {
     right: 0;
     margin-bottom: 0em;
 }
-body, html {
-    margin-top: 0em;
-    margin-bottom: 0em;
+.redcross {
+	width: 28px; 
+	margin-left: -5px;
 }
 
 
 /* WordPress fixes ------------------------------------------------------------ */
-
-/* adds padding to fix certain elements touching */
-div.row, div.card, div.card-deck, div.carousel {
-    margin-bottom: 0.25em !important; 
+body, html {
+    /* ensures no gaps in vertical screen edges */
+    margin-top: 0em;
+    margin-bottom: 0em;
+	padding-bottom: 0em;
+}
+nav,
+div.card, 
+div.card-deck, 
+div#carouselExampleIndicators {
+    /* vertical space between block level objects */
+    /* add selectors as needed */
+    margin-bottom: 1.0em !important; 
+}
+.btn-block {
+	margin-bottom: 1.5em !important; 
 }
 p.wps {
-    /* wps or WordPress Sucks, add this style to every paragraph you want to 
-    not be culled by the wautop disable function  */
+	/* prevent wautop function from removing paragraph tags */
     color: black;
 }

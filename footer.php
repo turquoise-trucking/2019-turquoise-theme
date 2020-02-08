@@ -4,10 +4,10 @@
         <div class="row row-30">
             <div class="col-md-4 col-xl-5">
                 <div class="pr-xl-4"><a class="brand" href="/"><img class="brand-logo-light" src="/static-assets/turquoise-badge.png" alt="Turquoise Trucking" width="181" height="50"></a>
-                <p>With over 10 years of experience in the trucking business, we provide companies with safe, efficient, and reliable transportation solutions across the United States.</p>
+                <p>With over 20 years of experience in the trucking business, we provide companies with safe, efficient, and reliable transportation solutions across the United States.</p>
                 <ul class="nav-list">
                     <li class="nav-fb"><a href="https://www.facebook.com/TurquoiseTrucking/" target="_blank" rel="noreferrer" class="external-link"><i class="fab fa-facebook-square fa-lg"></i> Follow us on Facebook</a></li>
-					<li class="nav-fb"><a href="https://www.redcross.org/" target="_blank" rel="noreferrer" class="external-link"><img src="/static-assets/footer-red-cross.png" alt="American Red Cross logo" style="width: 28px; margin-left: -5px;"> We support the American Red Cross</a></li>
+					<li class="nav-fb"><a href="https://www.redcross.org/" target="_blank" rel="noreferrer" class="external-link"><img src="/static-assets/footer-red-cross.png" alt="American Red Cross logo" class="redcross"> We support the American Red Cross</a></li>
                 </ul>
                 </div>
             </div>
