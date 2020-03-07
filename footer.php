@@ -41,7 +41,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <h3>Memberships & Causes <i title="Following links open external sites." class="fas fa-external-link-alt"></i></h3>
+                    <h3>Memberships &amp; Causes <i title="Following links open external sites." class="fas fa-external-link-alt"></i></h3>
                 </div>
             </div> 
             <div class="row membership">
