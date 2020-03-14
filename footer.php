@@ -48,10 +48,11 @@
             <div class="row membership">
                 <div class="col">
                     <ul>
-                        <li><a href="https://www.cvsa.org/"><img alt="CVSA, Commercial Vehicle Safety Alliance." src="/static-assets/footer-CVSA.png"></a></li>
-                        <li><a href="https://www.nastc.com/"><img alt="NASTC, National Association of Small Trucking Companies." src="/static-assets/footer-NASTC.png"></a></li>
-                        <li><a href="http://www.iowamotortruck.com/"><img alt="IMTA, Iowa Motor Trucking Association." src="/static-assets/footer-IMTA.png"></a></li>
-                        <li><a href="https://www.soiowa.org/"><img alt="Special Olympics Iowa." src="/static-assets/footer-SO.svg"></a></li>
+                        <li><a href="https://www.cvsa.org/" target="_blank"><img alt="CVSA, Commercial Vehicle Safety Alliance." src="/static-assets/footer-CVSA.png"></a></li>
+                        <li><a href="https://www.nastc.com/" target="_blank"><img alt="NASTC, National Association of Small Trucking Companies." src="/static-assets/footer-NASTC.png"></a></li>
+                        <li><a href="http://www.iowamotortruck.com/" target="_blank"><img alt="IMTA, Iowa Motor Trucking Association." src="/static-assets/footer-IMTA.png"></a></li>
+                        <li><a href="https://www.soiowa.org/" target="_blank"><img alt="Special Olympics Iowa." src="/static-assets/footer-SO.svg"></a></li>
+                        <li><a href="https://www.stjude.org/" target="_blank"><img alt="St. Jude Children's Research Hospital" src="/static-assets/footer-stjude.png"></a></li>
                     </ul>
                 </div>
             </div>
