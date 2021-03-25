@@ -8,13 +8,7 @@ Learn more about the custom theme for [Turquoise Trucking](https://turquoisetruc
 
 **2021-03-25**
 
-* Adding meta data to [prevent robots from listing this site](https://yoast.com/prevent-site-being-indexed/)
-
-  ```html
-  <meta name="robots" content="noindex,nofollow">
-  ```
-
-  
+* This is a staging website and out-of-sync with changes made directly from WP!
 
 **2020-02-08**
 
